@@ -1,0 +1,17 @@
+.base {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    background-color: lightslategray;
+
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: white;
+}
+
