@@ -1,17 +1,46 @@
 .base {
     display: flex;
+    width: 100%;
 }
 
-.left {
+.color {
     flex: 1;
     background-color: lightslategray;
 
 }
 
-.right {
-    display: flex;
+.text {
     flex: 1;
-    align-items: center;
     background-color: white;
+    margin-top: 50px;
+    margin-block: auto;
+    padding-left: 50;
 }
 
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.humble {
+    text-align: center;
+    font-size: 15px;
+}
+
+.paragraph {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button-of-2006{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.picture {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
